@@ -199,6 +199,7 @@
 
 # Smart Contracts
 
+* [Smart contracts - Simply Explained](https://www.youtube.com/watch?v=ZE2HxTmxfrI&ab_channel=SimplyExplained).
 
 ## Solidity (Ethereum)
 
