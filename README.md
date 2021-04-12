@@ -41,6 +41,7 @@
 * NFT-enabled decentralized commerce could offer a viable alternative and save small businesses.
 * Non-fungibility itself allows for new kinds of transactions, where users are not limited to monetary exchanges, but can enjoy the exchange of assets (digital or physical).
 
+* [rc721.org](http://erc721.org/)
 
 <br>
 
