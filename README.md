@@ -1,4 +1,4 @@
-# ▲ A comprehensive curated collection about NFTs ▼ 
+# ▲ A curated collection about NFTs ▼ 
 
 <br>
 
