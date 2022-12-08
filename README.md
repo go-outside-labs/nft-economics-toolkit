@@ -1,22 +1,14 @@
-# 🎨 curated collection about NFTs 
+# 🎨 NFTs 
 
 <br>
 
-#### TL;DR NFTs are cryptographic tokens that prove authenticity, ownership, and scarcity of digital assets. It's a new *file format*, for a file you can't copy.
+## TL; DR
+
+#### NFTs are cryptographic tokens that prove authenticity, ownership, and scarcity of digital assets. It's a new *file format*, for a file you can't copy.
 
 <br>
 <br>
 
-
-
-<p align="center">
-<img src="https://github.com/dream3rs/awesome_NFTs/blob/main/layers.png" width="80%" align="center" style="padding:1px;border:thin solid black;" />
-</p>
-
-
-
-
-<br><br>
 
 *A Non-Fungible Token (NFT) is a cryptographically secured token existing on the blockchain representing ownership of something unique. NFTs can represent tokenized ownership claims to real-world assets like a specific piece of land, or actual ownership of digital assets as in a rare digital trading card. Unlike fungible tokens such as Bitcoin where one BTC can be exchanged for any other BTC, each NFT is completely unique and represents verifiable digital scarcity.*
 
@@ -93,9 +85,6 @@
 * **contracts**: associated code and storage (the values of the variables at any given time). For instance, it might send ETH, alter its storage values, create temporary storage, call any of its own functions, call any public function of a different contract, create a new contract, and query information about the current transaction or the blockchain.
 
 
-### Virtual machine
-
-*The Ethereum Virtual Machine (EVM) is the runtime environment for smart contracts in Ethereum. It is a 256-bit register stack designed to run the same code exactly as intended (a fundamental consensus mechanism for Ethereum).*
 
 
 ### Gas
@@ -110,75 +99,140 @@
 
 
 
-
-### Trading protocols 
-
-* [Uniswap](https://uniswap.org/)
-
-
-### Protocols
-
-* [polygon](https://polygon.technology/get-started/): protocol for connecting Ethereum-compatible blockchain networks.
-
-
-### Sharding 
-
-*If the Ethereum nodes become too expensive to run, the network will be more susceptible to centralization. A solution is to split the entire Ethereum network into multiple portions. Each shard would contain its own independent state, meaning a unique set of account balances and smart contracts.*
-
-
-### Ethereum 2.0 (Serenity)
-
-*The main purpose of the upgrade is to increase transaction throughput for the network from the current of about 15 transactions per second to up to tens of thousands of transactions per second.*
-
-*Increase throughput by splitting up the workload into many blockchains running in parallel (sharding), having them all share a common consensus proof of stake blockchain.*
-
-* [Why Proof of Stake](https://vitalik.ca/general/2020/11/06/pos2020.html)
-
-
-### Security
-
-* In 2016, a flaw in The DAO was exploited to steal $50 million of Ether. As a result, the Ethereum community voted to hard fork the blockchain to reverse the theft. Ethereum Classic (ETC) continued as the original chain.
-
-### Ethereum standards tokens:
-
-* [**ERC-721**](https://eips.ethereum.org/EIPS/eip-721): non-fungible tokens.
-* **ERC-20**: fungible tokens.
-* **ERC-1400**: security tokens that be sold as securities.
-* **ERC-223**: allows for the transaction fees to be paid using the tokens involved. 
-* **ERC-777**: aims to be an improvement on the ERC20 standard by lowering overheads and adding new features.
-* [**ERC-998**:](https://eips.ethereum.org/EIPS/eip-998): Composable Non-Fungible Token standard.
-
-<br>
-
-# 🧆 🪙
----
-
-# Matic / Polygon
-
-* A [protocol and a framework](https://polygon.technology/) for building and connecting Ethereum-compatible blockchain networks.
-
-
----
-
-# Flow
-
-
-
-* [Flow](https://www.onflow.org/primer): "smart contracts assembled like lego blocks".
-* [Cadence playground](https://play.onflow.org/)
-* [Awesome flow](https://github.com/gianni-dalerta/awesome-flow)
-
-
-### Flow standards tokens:
-* [Fungible Token Standard](https://github.com/onflow/flow-FT)
-* [Flow Non-Fungible Token Standard](https://github.com/onflow/flow-NFT)
-
-
-
 <br>
 
 # 🥨 🪙
 ---
+
+
+
+# Artist, creators, and collectors
+
+*The lesson of Web 2.0: when the process of sharing content with others is owned entirely by private platforms, the cost of this mediation falls heavily on creators.*
+
+## Collectibles
+
+* [CryptoKitties](https://www.cryptokitties.co/): the first digital asset to use the ERC721 asset standard for NFTs (in 2017).
+* [Rare Pepe Wallet](https://rarepepewallet.com/)
+* [Non fungible pepes](https://nonfungiblepepe.com/): set of 1069 NFTs.
+* [Bullrun Babes](https://www.bullrunbabes.com/rules): set of 888 NTFs, based on Legend cards.
+* [CryptoPunks](https://www.larvalabs.com/cryptopunks)
+* [Curio Cards](https://curio.cards/)
+* [Joy World](https://www.joy.world/)
+* [Axie](https://axieinfinity.com/): A digital nation.
+
+## Marketplaces
+
+- [Known Origin](https://knownorigin.io/): curated marketplace for rare digital work, featuring artists, on Ethereum, files held on IPFS.
+- [Foundation](https://foundation.app/): crated marketplace backed on MetaMask wallet, on Ethereum.
+- [Digitalax](https://marketplace.digitalax.xyz/): digital fashion engine.
+- [Terra Virtua](https://terravirtua.io/): immersive digital collectible platform.
+- [Zora.co](https://zora.co/): curated marketplace backed on MetaMask wallet, on Ethereum.
+- [Nifty Gateway](https://niftygateway.com/): marketplace created by [Gemini](https://www.gemini.com/).
+- [OpenSea.io](https://opensea.io/): open marketplace on ERC721 and ERC1155.
+- [CryptoSlam.io](https://www.cryptoslam.io/): collect digital cards.
+- [Rarible](https://rarible.com/): community-owned NFT marketplace.
+- [SuperRare](https://superrare.co/): collect digital art work.
+- [Wax](https://wax.io/): decentralized video game and entertainment network.
+- [NonFungible.com](https://nonfungible.com/): database of blockchain gaming and crypto collectible markets.
+- [Data.nyc](https://dada.nyc/artgallery): collection of virtual conversations.
+- [Maecenas.co](https://www.maecenas.co/): fine art investments.
+- [Portion](https://portion.io/): premier online marketplace.
+- [Meme factory](https://memefactory.io/): A decentralized registry and marketplace for the creation, exchange, and collection of provably rare digital assets.
+- [beta.cent.co](https://beta.cent.co/~discover/).
+- [Async.art](https://async.art/)
+- [Token Trove](https://tokentrove.com/)
+- [Cargo](https://cargo.build/)
+- [Blockparty](https://blockparty.co/)
+- [Charged Particles](https://app.charged.fi/go/market)
+- [Don't buy meme](https://dontbuymeme.com/)
+- [Ghost Market](https://ghostmarket.io/).
+
+
+## Games and Gaming Marketplaces
+
+- [Enjix](https://enjinx.io/eth/marketplace)
+- [Neon District](https://neondistrict.io/)
+- [Hedgie](https://www.hedgie.io/)
+- [My Crypto Heros](https://www.mycryptoheroes.net/)
+- [Skyweaver](https://www.skyweaver.net/)
+- [War of Crypta](https://warofcrypta.com/)
+- [Mine or Die](https://warriders.com/)
+- [World of Ether](https://worldofether.com/)
+- [Crypto Weebs](https://www.crypto-weebs.com/)
+- [Axie infinity](https://axieinfinity.com/)
+
+## Monetization and indexes
+
+*Protocols such as NFTfi and Rocket allow NFTs to be used as collateral for peer-to-peer loans, enabling holders to treat their digital collectibles like any other asset to be monetized.*
+
+* [$WHALE](http://):
+* [NFTfi](https://nftfi.com/): marketplace for NFT collateralized loans.
+* [Rocket](https://defirate.com/rocket-nft-loans/). collateralized lending.
+* [NFT20](https://nft20.io/): Decentralized NFT Trading Protocol.
+* [NFY](https://nfy.finance): DeFi protocol.
+* [nftx.org](https://nftx.org/#/): platform for making ERC20 tokens that are backed by NFTs (funds, fungible, composable). For example, **CryptoPunks NFT funds**: $PUNK, $PUNK-BASIC, $PUNK-FEMALE, $PUNK-ATTR-4, $PUNK-ATTR-5, $PUNK-ZOMBIE.
+* [Tokenize Real Estate](https://blog.realt.co/)
+* [NFTindex](https://nftindex.tech/en/index.html)
+* [PIEDAO](https://play-metaverse-token.piedao.org/)
+* [IndexCoop](https://app.indexcoop.com/jpg)
+* [Tessera](https://tessera.co/)
+* [NFT trader](https://www.nfttrader.io/)
+* [NFT lending protocols](https://twitter.com/FUTURE_FUND_/status/1520897597539745793?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1520897597539745793%7Ctwgr%5E891a6bd85a5df5688f988d945e325aabdbaabd6e%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.coindesk.com%2Flearn%2Fwhat-is-nft-lending%2F)
+
+
+## Upcoming technologies
+
+### Zora Protocol
+
+[Zora Protocol](https://zora.engineering/whitepaper) is a universal market protocol for media ownership. Creators can set a perpetual ownership stake in their work, and are rewarded whenever ownership changes hands. Based on Ethereum blockchain and ERC-721 tokens.
+
+   - Each piece of media is embedded with a market, consisting of a transparent pool of bids.
+   - Whenever a bid is accepted, or an ask fulfilled, the piece of media is transferred to the buyer, and the funds from that bid are split amongst its shareholders. There can be up to three shareholders for a piece of media: the owner, the previous owner, and the original creator.
+   - Zora protocol introduces integrity checks to ensure that media and its metadata are provably unique. The representation of media on the Zora protocol is two URI pointers: one to the metadata, and one to the content itself (the URI can be updated, but the sha256 checksums representing the data they point to may not).
+   - Uses Bids to represent buy-side liquidity for a piece of media and specifies an ERC-20 currency to be bid with (allowing for a market of many currencies to exist for the media):
+
+```
+struct Bid {
+    // Amount of the currency being bid
+    uint256 amount;
+    // Address to the ERC20 token being used to bid
+    address currency;
+    // Address of the bidder
+    address bidder;
+    // Address of the recipient
+    address recipient;
+    // % of the next sale to award the previous owner
+    Decimal.D256 sellOnFee;
+}
+
+struct Ask {
+    // Amount of the currency being asked
+    uint256 amount;
+    // Address to the ERC20 token being asked
+    address currency;
+    // % of the next sale to award the seller
+    Decimal.D256 sellOnFee;
+}
+```
+
+
+
+## Understanding assets
+
+* [NFT Market Overview](https://nonfungible.com/market/history)
+* [Crypto slam](https://www.cryptoslam.io/)
+* [Etherscan](https://rinkeby.etherscan.io/): search by address, txn hash, block.
+
+
+
+
+<br>
+
+# 🥧 🪙
+---
+
+
 
 # Permanent storage solutions (Arweave and IPFS)
 
@@ -258,116 +312,6 @@
 ---
 
 
-# Artist, creators, and collectors
-
-*The lesson of Web 2.0: when the process of sharing content with others is owned entirely by private platforms, the cost of this mediation falls heavily on creators.*
-
-## Collectibles
-
-* [CryptoKitties](https://www.cryptokitties.co/): the first digital asset to use the ERC721 asset standard for NFTs (in 2017).
-* [Rare Pepe Wallet](https://rarepepewallet.com/)
-* [Non fungible pepes](https://nonfungiblepepe.com/): set of 1069 NFTs.
-* [Bullrun Babes](https://www.bullrunbabes.com/rules): set of 888 NTFs, based on Legend cards.
-* [CryptoPunks](https://www.larvalabs.com/cryptopunks)
-* [Curio Cards](https://curio.cards/)
-* [Joy World](https://www.joy.world/)
-* [Axie](https://axieinfinity.com/): A digital nation.
-
-## Marketplaces
-
-- [Known Origin](https://knownorigin.io/): curated marketplace for rare digital work, featuring artists, on Ethereum, files held on IPFS.
-- [Foundation](https://foundation.app/): crated marketplace backed on MetaMask wallet, on Ethereum.
-- [Digitalax](https://marketplace.digitalax.xyz/): digital fashion engine.
-- [Terra Virtua](https://terravirtua.io/): immersive digital collectible platform.
-- [Zora.co](https://zora.co/): curated marketplace backed on MetaMask wallet, on Ethereum.
-- [Nifty Gateway](https://niftygateway.com/): marketplace created by [Gemini](https://www.gemini.com/).
-- [OpenSea.io](https://opensea.io/): open marketplace on ERC721 and ERC1155.
-- [CryptoSlam.io](https://www.cryptoslam.io/): collect digital cards.
-- [Rarible](https://rarible.com/): community-owned NFT marketplace.
-- [SuperRare](https://superrare.co/): collect digital art work.
-- [Wax](https://wax.io/): decentralized video game and entertainment network.
-- [NonFungible.com](https://nonfungible.com/): database of blockchain gaming and crypto collectible markets.
-- [Data.nyc](https://dada.nyc/artgallery): collection of virtual conversations.
-- [Maecenas.co](https://www.maecenas.co/): fine art investments.
-- [Portion](https://portion.io/): premier online marketplace.
-- [Meme factory](https://memefactory.io/): A decentralized registry and marketplace for the creation, exchange, and collection of provably rare digital assets.
-- [beta.cent.co](https://beta.cent.co/~discover/).
-- [Async.art](https://async.art/)
-- [Token Trove](https://tokentrove.com/)
-- [Cargo](https://cargo.build/)
-- [Blockparty](https://blockparty.co/)
-- [Charged Particles](https://app.charged.fi/go/market)
-- [Don't buy meme](https://dontbuymeme.com/)
-- [Ghost Market](https://ghostmarket.io/).
-
-
-## Games and Gaming Marketplaces
-
-- [Enjix](https://enjinx.io/eth/marketplace)
-- [Neon District](https://neondistrict.io/)
-- [Hedgie](https://www.hedgie.io/)
-- [My Crypto Heros](https://www.mycryptoheroes.net/)
-- [Skyweaver](https://www.skyweaver.net/)
-- [War of Crypta](https://warofcrypta.com/)
-- [Mine or Die](https://warriders.com/)
-- [World of Ether](https://worldofether.com/)
-- [Crypto Weebs](https://www.crypto-weebs.com/)
-- [Axie infinity](https://axieinfinity.com/)
-
-
-
-## Upcoming technologies
-
-### Zora Protocol
-
-[Zora Protocol](https://zora.engineering/whitepaper) is a universal market protocol for media ownership. Creators can set a perpetual ownership stake in their work, and are rewarded whenever ownership changes hands. Based on Ethereum blockchain and ERC-721 tokens.
-
-   - Each piece of media is embedded with a market, consisting of a transparent pool of bids.
-   - Whenever a bid is accepted, or an ask fulfilled, the piece of media is transferred to the buyer, and the funds from that bid are split amongst its shareholders. There can be up to three shareholders for a piece of media: the owner, the previous owner, and the original creator.
-   - Zora protocol introduces integrity checks to ensure that media and its metadata are provably unique. The representation of media on the Zora protocol is two URI pointers: one to the metadata, and one to the content itself (the URI can be updated, but the sha256 checksums representing the data they point to may not).
-   - Uses Bids to represent buy-side liquidity for a piece of media and specifies an ERC-20 currency to be bid with (allowing for a market of many currencies to exist for the media):
-
-```
-struct Bid {
-    // Amount of the currency being bid
-    uint256 amount;
-    // Address to the ERC20 token being used to bid
-    address currency;
-    // Address of the bidder
-    address bidder;
-    // Address of the recipient
-    address recipient;
-    // % of the next sale to award the previous owner
-    Decimal.D256 sellOnFee;
-}
-
-struct Ask {
-    // Amount of the currency being asked
-    uint256 amount;
-    // Address to the ERC20 token being asked
-    address currency;
-    // % of the next sale to award the seller
-    Decimal.D256 sellOnFee;
-}
-```
-
-
-
-## Understanding assets
-
-* [NFT Market Overview](https://nonfungible.com/market/history)
-* [Crypto slam](https://www.cryptoslam.io/)
-* [Etherscan](https://rinkeby.etherscan.io/): search by address, txn hash, block.
-
-
-
-
-<br>
-
-# 🥧 🪙
----
-
-
 # Socioeconomics of decentralizing the world
 
 ## Communities
@@ -387,19 +331,6 @@ struct Ask {
 * [Why Decentralization Matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)
 * [Progressive Decentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/)
 
-
-
-## Monetization
-
-*Protocols such as NFTfi and Rocket allow NFTs to be used as collateral for peer-to-peer loans, enabling holders to treat their digital collectibles like any other asset to be monetized.*
-
-* [$WHALE](http://):
-* [NFTfi](https://nftfi.com/): marketplace for NFT collateralized loans.
-* [Rocket](https://defirate.com/rocket-nft-loans/). collateralized lending.
-* [NFT20](https://nft20.io/): Decentralized NFT Trading Protocol.
-* [NFY](https://nfy.finance): DeFi protocol.
-* [nftx.org](https://nftx.org/#/): platform for making ERC20 tokens that are backed by NFTs (funds, fungible, composable). For example, **CryptoPunks NFT funds**: $PUNK, $PUNK-BASIC, $PUNK-FEMALE, $PUNK-ATTR-4, $PUNK-ATTR-5, $PUNK-ZOMBIE.
-* [Tokenize Real Estate](https://blog.realt.co/)
 
 
 <br>
@@ -470,7 +401,4 @@ struct Ask {
 * [⭐️ ⭐️ ⭐️ - Crypto makes the internet ownable](https://variant.mirror.xyz/T8kdtZRIgy_srXB5B06L8vBqFHYlEBcv6ae2zR6Y_eo)
 * [⭐️ ⭐️ - NFT Beginner's Guide](https://decrypt.co/resources/non-fungible-tokens-nfts-explained-guide-learn-blockchain)
 
-### DAOs
-
-* [The Dao of DAOs](https://www.notboring.co/p/the-dao-of-daos).
 
