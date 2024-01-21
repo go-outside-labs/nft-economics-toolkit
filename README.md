@@ -103,6 +103,10 @@
 
 <br>
 
+* **[list of artists (compilated ~2021)](artists.md)**
+  
+<br>
+
 #### example of collectibles
 
 * **[cryptokitties](https://www.cryptokitties.co/)**: the first digital asset to use the ERC721 asset standard for nfts (in 2017).
