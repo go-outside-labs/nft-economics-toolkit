@@ -1,5 +1,4 @@
-
-# 🖼✨ Crypto artists 
+## 🖼✨ list of crypto artists 
 
 * [josie.io.](https://josie.io/)
 * [Johnny Dollar](https://johnnydollar.biz/)
