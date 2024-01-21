@@ -2,83 +2,61 @@
 
 <br>
 
-### tl; dr
-
-#### NFTs are cryptographic tokens that prove authenticity, ownership, and scarcity of digital assets. It's a new *file format*, for a file you can't copy.
+#### nfts are cryptographic tokens that prove authenticity, ownership, and scarcity of digital assets.
 
 <br>
 
 
-> *a non-fungible token (NFT) is a cryptographically secured token existing on the blockchain representing ownership of something unique. NFTs can represent tokenized ownership claims to real-world assets like a specific piece of land, or actual ownership of digital assets as in a rare digital trading card.uUnlike fungible tokens such as bitcoin where one BTC can be exchanged for any other BTC, each NFT is completely unique and represents verifiable digital scarcity.*
+> *a non-fungible token (nft) is a cryptographically secured token existing on the blockchain representing ownership of something unique. nft can represent tokenized ownership claims to real-world assets like a specific piece of land, or actual ownership of digital assets as in a rare digital trading card.uUnlike fungible tokens such as bitcoin where one btc can be exchanged for any other btc, each nft is completely unique and represents verifiable digital scarcity.*
 
 <br>
 
 #### what is fungibility?
 
 * fungible goods are equivalent and interchangeable, like ether, bitcoin, fiat currencies, and voting rights.
-
 * non-fungible goods are unique and distinct, like deeds of ownership, or collectibles.
 
 <br>
 
 #### what is a token?
 
-* a token is a representation of something in the blockchain: money, time, services, shares in a company, anything. by representing things as tokens, we can allow smart contracts to interact with them, exchange them, create or destroy them.
-
-* a token contract is an Ethereum smart contract. "eending tokens" means "calling a method on a smart contract that someone wrote and deployed". a token contract is a mapping of addresses to balances, plus some methods to add and subtract from those balances. it is these balances that represent the tokens themselves. eomeone "has tokens" when their balance in the token contract is non-zero.
+* a token is a representation of something in the blockchain: money, time, services, shares in a company, anything.
+* by representing things as tokens, we can allow smart contracts to interact with them, exchange them, create or destroy them.
+* a token contract is an ethereum smart contract: "sending tokens" means "calling a method on a smart contract that someone wrote and deployed".
+* a token contract is a mapping of addresses to balances, plus some methods to add and subtract from those balances. it is these balances that represent the tokens themselves. seomeone "has tokens" when their balance in the token contract is non-zero.
 
 <br>
 
-#### why NFTs will power the future of commerce
+#### why nfts can power the future of commerce
 
-* NFT-enabled decentralized commerce could offer a viable alternative and save small businesses.
+* nft-enabled decentralized commerce could offer a viable alternative and save small businesses.
 * non-fungibility itself allows for new kinds of transactions, where users are not limited to monetary exchanges, but can enjoy the exchange of assets (digital or physical).
 
 <br>
 
-#### references
 
-* **[erc721.org](http://erc721.org/)**
-* **[ef on erc-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721)**
-* **[ef on erc-1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155)**
-
-<br>
-<br>
-
----
-
-### blockchains 101
-
-<br>
-
-#### how it works
+#### blockchains 101
 
 * whenever a node wishes to include a new transaction in the blockchain, it sends it to its peers, who then send it to their peers, and so on. in this way, it propagates throughout the network. 
 * certain nodes, called miners, maintain a list of all of these new transactions and use them to create new blocks, which they then send to the rest of the network. 
 * whenever a node receives a block, it checks the validity of the block and of all of the transactions therein and, if valid, adds it to its blockchain and executes all of said transactions. 
-* as the network is non-hierarchical, a node may receive competing blocks, which may form competing chains. The network comes to consensus on the blockchain by following the "longest chain rule", which states that the chain with the most blocks at any given time is the canonical chain. This rule achieves consensus because miners do not want to expend their computational work trying to add blocks to a chain that will be abandoned by the network.
+* as the network is non-hierarchical, a node may receive competing blocks, which may form competing chains. the network comes to consensus on the blockchain by following the "longest chain rule", which states that the chain with the most blocks at any given time is the canonical chain. this rule achieves consensus because miners do not want to expend their computational work trying to add blocks to a chain that will be abandoned by the network.
 
 <br>
 
 #### consensus protocols tl; dr
 
-* **proof-of-work (PoW)**: used by Bitcoin's protocol. Validate transactions to the miners, who are the nodes that solve cryptographic, or mathematical problems, using their computers. miners who solve a problem and validate and enable a block record are rewarded with bitcoin.
+* **proof-of-work (PoW)**: used by bitcoin's protocol. Validate transactions to the miners, who are the nodes that solve cryptographic, or mathematical problems, using their computers. miners who solve a problem and validate and enable a block record are rewarded with bitcoin.
 * **proof-of-stake (PoS)**: used by ethereum (after "the merge"). forgers (instead of miners) stake an amount of cryptocurrency, which allows them a chance, based on probability, to be a block validator. the successful forger receives the relevant block transaction fees as a reward. 
 * **proof-of-authority (PoA)**: more centralized, it has predetermined block validators. new blocks on a blockchain are only created when the validators are in the majority. 
 
 <br>
 
----
 
-### ethereum
+#### ethereum
 
 * ethereum is a technology that lets you send cryptocurrency to anyone for a small fee.
-
-* ethereum is an open-source, public, blockchain-based distributed ledger featuring smart contract (scripting) functionality. it enables developers to build blockchain applications with business logic that execute in a trustless environment, while leveraging the high availability of the ethereum network.*
-
-* [what's ethereum](https://ethereum.org/en/what-is-ethereum/)
-* [ethereum improvement proposals](https://eips.ethereum.org/)
-* [scaffold ETH](https://github.com/austintgriffith/scaffold-eth)
+* ethereum is an open-source, public, blockchain-based distributed ledger featuring smart contract (scripting) functionality. it enables developers to build blockchain applications with business logic that execute in a trustless environment, while leveraging the high availability of the ethereum network.
 
 <br>
 
@@ -91,21 +69,28 @@
 #### accounts
 
 * **user accounts**: create transactions, which must be signed using the account's private key, a 64-character hexadecimal string that should only be known to the account's owner (signature algorithm is ECDSA). 
-
 * **contracts**: associated code and storage (the values of the variables at any given time). for instance, it might send ETH, alter its storage values, create temporary storage, call any of its own functions, call any public function of a different contract, create a new contract, and query information about the current transaction or the blockchain.
 
 <br>
 
 #### gas
 
-* ethereum transaction fees: to transact on the network, users pay gas fees in ETH to miners running the computers that validate, or process, every transaction completed (from simple token transfers to more complex engagements with dapps). It's a unit of account within the EVM.
+* ethereum transaction fees: to transact on the network, users pay gas fees in ETH to miners running the computers that validate, or process, every transaction completed (from simple token transfers to more complex engagements with dapps). it's a unit of account within the EVM.
+* this fee mechanism is designed to mitigate transaction spam, prevent infinite loops during contract execution, and provide for a market-based allocation of network resources.
 
-* this fee mechanism is designed to mitigate transaction spam, prevent infinite loops during contract execution, and provide for a market-based allocation of network resources.*
 
+<br>
 
-* [check gas price](https://www.gasnow.org/)
-* [eth gas station](https://ethgasstation.info/)
+#### references
 
+* **[erc721.org](http://erc721.org/)**
+* **[ef on erc-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721)**
+* **[ef on erc-1155](https://ethereum.org/en/developers/docs/standards/tokens/erc-1155)**
+* **[what's ethereum](https://ethereum.org/en/what-is-ethereum/)**
+* **[ethereum improvement proposals](https://eips.ethereum.org/)**
+* **[scaffold ETH](https://github.com/austintgriffith/scaffold-eth)**
+* **[check gas price](https://www.gasnow.org/)**
+* **[eth gas station](https://ethgasstation.info/)**
 
 
 <br>
@@ -114,152 +99,116 @@
 
 ### artist, creators, and collectors
 
-* the lesson of Web 2.0: when the process of sharing content with others is owned entirely by private platforms, the cost of this mediation falls heavily on creators.
+> *the lesson of web 2.0: when the process of sharing content with others is owned entirely by private platforms, the cost of this mediation falls heavily on creators.*
 
 <br>
 
-#### collectibles
+#### example of collectibles
 
-* [cryptokitties](https://www.cryptokitties.co/): the first digital asset to use the ERC721 asset standard for NFTs (in 2017).
-* [rare pepe wallet](https://rarepepewallet.com/)
-* [non fungible pepes](https://nonfungiblepepe.com/)
-* [bullrun babes](https://www.bullrunbabes.com/rules)
-* [cryptopunks](https://www.larvalabs.com/cryptopunks)
-* [curio cards](https://curio.cards/)
-* [joy world](https://www.joy.world/)
-* [axie](https://axieinfinity.com/)
+* **[cryptokitties](https://www.cryptokitties.co/)**: the first digital asset to use the ERC721 asset standard for nfts (in 2017).
+* **[rare pepe wallet](https://rarepepewallet.com/)**
+* **[non fungible pepes](https://nonfungiblepepe.com/)**
+* **[bullrun babes](https://www.bullrunbabes.com/rules)**
+* **[cryptopunks](https://www.larvalabs.com/cryptopunks)**
+* **[curio cards](https://curio.cards/)**
+* **[joy world](https://www.joy.world/)**
+* **[axie](https://axieinfinity.com/)**
 
 <br>
 
 #### marketplaces
 
-- [Known Origin](https://knownorigin.io/): curated marketplace for rare digital work, featuring artists, on Ethereum, files held on IPFS.
-- [Foundation](https://foundation.app/): crated marketplace backed on MetaMask wallet, on Ethereum.
-- [Digitalax](https://marketplace.digitalax.xyz/): digital fashion engine.
-- [Terra Virtua](https://terravirtua.io/): immersive digital collectible platform.
-- [Zora.co](https://zora.co/): curated marketplace backed on MetaMask wallet, on Ethereum.
-- [Nifty Gateway](https://niftygateway.com/): marketplace created by [Gemini](https://www.gemini.com/).
-- [OpenSea.io](https://opensea.io/): open marketplace on ERC721 and ERC1155.
-- [CryptoSlam.io](https://www.cryptoslam.io/): collect digital cards.
-- [Rarible](https://rarible.com/): community-owned NFT marketplace.
-- [SuperRare](https://superrare.co/): collect digital art work.
-- [Wax](https://wax.io/): decentralized video game and entertainment network.
-- [NonFungible.com](https://nonfungible.com/): database of blockchain gaming and crypto collectible markets.
-- [Data.nyc](https://dada.nyc/artgallery): collection of virtual conversations.
-- [Maecenas.co](https://www.maecenas.co/): fine art investments.
-- [Portion](https://portion.io/): premier online marketplace.
-- [Meme factory](https://memefactory.io/): A decentralized registry and marketplace for the creation, exchange, and collection of provably rare digital assets.
-- [beta.cent.co](https://beta.cent.co/~discover/).
-- [Async.art](https://async.art/)
-- [Token Trove](https://tokentrove.com/)
-- [Cargo](https://cargo.build/)
-- [Blockparty](https://blockparty.co/)
-- [Charged Particles](https://app.charged.fi/go/market)
-- [Don't buy meme](https://dontbuymeme.com/)
-- [Ghost Market](https://ghostmarket.io/).
+* **[zora protocol](https://zora.engineering/whitepaper)**
+* **[known origin](https://knownorigin.io/)**
+* **[foundation](https://foundation.app/)**
+* **[digitalax](https://marketplace.digitalax.xyz/)**
+* **[terra virtua](https://terravirtua.io/)**
+* **[nifty gateway](https://niftygateway.com/)**
+* **[opensea.io](https://opensea.io/)**
+* **[cryptoslam.io](https://www.cryptoslam.io/)**
+* **[rarible](https://rarible.com/)**
+* **[superrare](https://superrare.co/)**
+* **[wax](https://wax.io/)**
+* **[nonfungible.com](https://nonfungible.com/)**
+* **[data.nyc](https://dada.nyc/artgallery)**
+* **[maecenas.co](https://www.maecenas.co/)**
+* **[portion](https://portion.io/)**
+* **[meme factory](https://memefactory.io/)**
+* **[beta.cent.co](https://beta.cent.co/~discover/)**
+* **[async.art](https://async.art/)**
+* **[token trove](https://tokentrove.com/)**
+* **[cargo](https://cargo.build/)**
+* **[blockparty](https://blockparty.co/)**
+* **[charged particles](https://app.charged.fi/go/market)**
+* **[don't buy meme](https://dontbuymeme.com/)**
+* **[ghost market](https://ghostmarket.io/)**
 
 
 <br>
 
 #### games and gaming marketplaces
 
-- [Enjix](https://enjinx.io/eth/marketplace)
-- [Neon District](https://neondistrict.io/)
-- [Hedgie](https://www.hedgie.io/)
-- [My Crypto Heros](https://www.mycryptoheroes.net/)
-- [Skyweaver](https://www.skyweaver.net/)
-- [War of Crypta](https://warofcrypta.com/)
-- [Mine or Die](https://warriders.com/)
-- [World of Ether](https://worldofether.com/)
-- [Crypto Weebs](https://www.crypto-weebs.com/)
-- [Axie infinity](https://axieinfinity.com/)
+* **[enjix](https://enjinx.io/eth/marketplace)**
+* **[neon district](https://neondistrict.io/)**
+* **[hedgie](https://www.hedgie.io/)**
+* **[my crypto heros](https://www.mycryptoheroes.net/)**
+* **[skyweaver](https://www.skyweaver.net/)**
+* **[war of crypta](https://warofcrypta.com/)**
+* **[,ine or die](https://warriders.com/)**
+* **[world of ether](https://worldofether.com/)**
+* **[crypto weebs](https://www.crypto-weebs.com/)**
+* **[axie infinity](https://axieinfinity.com/)**
 
 <br>
 
 #### monetization and indexes
 
-* protocols such as NFTfi and Rocket allow NFTs to be used as collateral for peer-to-peer loans, enabling holders to treat their digital collectibles like any other asset to be monetized.
+> *protocols such as NFTfi and Rocket allow nfts to be used as collateral for peer-to-peer loans, enabling holders to treat their digital collectibles like any other asset to be monetized.*
 
-* [$WHALE](http://)
-* [NFTfi](https://nftfi.com/): marketplace for NFT collateralized loans.
-* [Rocket](https://defirate.com/rocket-nft-loans/). collateralized lending.
-* [NFT20](https://nft20.io/): Decentralized NFT Trading Protocol.
-* [NFY](https://nfy.finance): DeFi protocol.
-* [nftx.org](https://nftx.org/#/): platform for making ERC20 tokens that are backed by NFTs (funds, fungible, composable). For example, **CryptoPunks NFT funds**: $PUNK, $PUNK-BASIC, $PUNK-FEMALE, $PUNK-ATTR-4, $PUNK-ATTR-5, $PUNK-ZOMBIE.
-* [Tokenize Real Estate](https://blog.realt.co/)
-* [NFTindex](https://nftindex.tech/en/index.html)
-* [PIEDAO](https://play-metaverse-token.piedao.org/)
-* [IndexCoop](https://app.indexcoop.com/jpg)
-* [Tessera](https://tessera.co/)
-* [NFT trader](https://www.nfttrader.io/)
-* [NFT lending protocols](https://twitter.com/FUTURE_FUND_/status/1520897597539745793?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1520897597539745793%7Ctwgr%5E891a6bd85a5df5688f988d945e325aabdbaabd6e%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.coindesk.com%2Flearn%2Fwhat-is-nft-lending%2F)
+* **[$whale](http://)**
+* **[nftfi](https://nftfi.com/)**
+* **[rocket](https://defirate.com/rocket-nft-loans/)**
+* **[nf2/0](https://nft20.io/)**
+* **[nfy](https://nfy.finance)**
+* **[nftx.org](https://nftx.org/#/)**
+* **[tokenize real estate](https://blog.realt.co/)**
+* **[nftindes](https://nftindex.tech/en/index.html)**
+* **[piedao](https://play-metaverse-token.piedao.org/)**
+* **[indexcoop](https://app.indexcoop.com/jpg)**
+* **[tessera](https://tessera.co/)**
+* **[nft trader](https://www.nfttrader.io/)**
+* **[nft lending protocols](https://twitter.com/FUTURE_FUND_/status/1520897597539745793?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1520897597539745793%7Ctwgr%5E891a6bd85a5df5688f988d945e325aabdbaabd6e%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.coindesk.com%2Flearn%2Fwhat-is-nft-lending%2F)**
 
-
-<br>
-
-##### zora protocol
-
-* [zora protocol](https://zora.engineering/whitepaper) is a universal market protocol for media ownership. Creators can set a perpetual ownership stake in their work, and are rewarded whenever ownership changes hands. Based on Ethereum blockchain and ERC-721 tokens.
-
-   - each piece of media is embedded with a market, consisting of a transparent pool of bids.
-   - whenever a bid is accepted, or an ask fulfilled, the piece of media is transferred to the buyer, and the funds from that bid are split amongst its shareholders. There can be up to three shareholders for a piece of media: the owner, the previous owner, and the original creator.
-   - zora protocol introduces integrity checks to ensure that media and its metadata are provably unique. The representation of media on the Zora protocol is two URI pointers: one to the metadata, and one to the content itself (the URI can be updated, but the sha256 checksums representing the data they point to may not).
-   - uses Bids to represent buy-side liquidity for a piece of media and specifies an ERC-20 currency to be bid with (allowing for a market of many currencies to exist for the media):
-
-```
-struct Bid {
-    // Amount of the currency being bid
-    uint256 amount;
-    // Address to the ERC20 token being used to bid
-    address currency;
-    // Address of the bidder
-    address bidder;
-    // Address of the recipient
-    address recipient;
-    // % of the next sale to award the previous owner
-    Decimal.D256 sellOnFee;
-}
-
-struct Ask {
-    // Amount of the currency being asked
-    uint256 amount;
-    // Address to the ERC20 token being asked
-    address currency;
-    // % of the next sale to award the seller
-    Decimal.D256 sellOnFee;
-}
-```
 
 <br>
 
 #### understanding assets
 
-* [NFT market overview](https://nonfungible.com/market/history)
-* [crypto slam](https://www.cryptoslam.io/)
-* [etherscan](https://rinkeby.etherscan.io/)
+* **[nft market overview](https://nonfungible.com/market/history)**
+* **[crypto slam](https://www.cryptoslam.io/)**
+* **[etherscan](https://rinkeby.etherscan.io/)**
 
 
 <br>
 
 #### permanent storage solutions
 
-
-* [Check my NFT](https://checkmynft.com/): explains the problem.
-* [Arweave](https://www.arweave.org/)
-* [IPFS to Arweave](https://ipfs2arweave.com/)
-* [infiNFT](https://infinft.com/): on-chain metadata and image storage, available for 3D, audio, multiple files
-* [Mintable](https://mintable.app/)
-* [Mintbase](https://mintbase.io/)
-* [Pinata](pinata.cloud)
+* **[check my nft](https://checkmynft.com/)**
+* **[arweave](https://www.arweave.org/)**
+* **[iPFS to arweave](https://ipfs2arweave.com/)**
+* **[infinft](https://infinft.com/)**
+* **[mintable](https://mintable.app/)**
+* **[mintbase](https://mintbase.io/)**
+* **[pinata](pinata.cloud)**
 
 <br>
 
 #### smart contracts
 
-* [smart contracts simply explained](https://www.youtube.com/watch?v=ZE2HxTmxfrI&ab_channel=SimplyExplained).
-* [cryptopunksmarket Solidity contract](https://github.com/larvalabs/cryptopunks/blob/master/contracts/CryptoPunksMarket.sol)
-* [cryptocats contract](https://etherscan.io/address/0x06012c8cf97bead5deae237070f9587f8e7a266d#readContract)
-* [creating a flexible NFT](https://kauri.io/#collections/Flexible%2C%20Upgradeable%20%26%20Highly%20Available%20NFTs/creating-a-flexible-nft-%28part-1%29/)
+* **[smart contracts simply explained](https://www.youtube.com/watch?v=ZE2HxTmxfrI&ab_channel=SimplyExplained)**
+* **[cryptopunksmarket solidity contract](https://github.com/larvalabs/cryptopunks/blob/master/contracts/CryptoPunksMarket.sol)**
+* **[cryptocats contract](https://etherscan.io/address/0x06012c8cf97bead5deae237070f9587f8e7a266d#readContract)**
+* **[creating a flexible NFT](https://kauri.io/#collections/Flexible%2C%20Upgradeable%20%26%20Highly%20Available%20NFTs/creating-a-flexible-nft-%28part-1%29/)**
 
 
 <br>
@@ -270,46 +219,42 @@ struct Ask {
 
 #### communities
 
-* [Peeps democracy](https://medium.com/peeps-democracy)
-* [Crypto Art Pulse](https://cryptoartpulse.com/)
-* [ETH Global](https://ethglobal.co/)
+* **[peeps democracy](https://medium.com/peeps-democracy)**
+* **[crypto art pulse](https://cryptoartpulse.com/)**
+* **[eth global](https://ethglobal.co/)**
 
 
 <br>
 
 #### opinionated articles 
 
-* [why people collect art](https://aeon.co/essays/what-drives-art-collectors-to-buy-and-display-their-finds)
-* [some thoughts on token governance and curation](https://medium.com/knownorigin/some-thoughts-on-token-governance-and-curation-a-look-into-a-possible-future-for-knownorigin-41ac900f8a79)
-* [can cryptoart really change the world](https://medium.com/knownorigin/can-cryptoart-really-change-the-world-54f26a4f2821)
+* **[why people collect art](https://aeon.co/essays/what-drives-art-collectors-to-buy-and-display-their-finds)**
+* **[some thoughts on token governance and curation](https://medium.com/knownorigin/some-thoughts-on-token-governance-and-curation-a-look-into-a-possible-future-for-knownorigin-41ac900f8a79)**
+* **[can cryptoart really change the world](https://medium.com/knownorigin/can-cryptoart-really-change-the-world-54f26a4f2821)**
 
 <br>
 
 ### decentralization
 
-* [why decentralization matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)
-* [progressive cecentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/)
-
-
+* **[why decentralization matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)**
+* **[progressive cecentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/)**
 
 <br>
 
 ---
 
-### ccronyms and concepts
+### accronyms and concepts
 
-
-* **DApps**: decentralized applications (which can include games, digital collectibles, online-voting systems, financial products and many others).
-* **DAOs**: decentralized autonomous organizations (MakerDao is an example).
-* **DeFi**: decentralized finance: social currency backed by high-values assets.
-* **DEXs**: decentralized exchanges ([Uniswap](https://uniswap.org/) is an example).
-* **Liquidity pools**: pool of tokens locked in the smart contract, used to facilitate trade by providing liquidity, and used by some of the decentralized exchanges.
-* **AMMs**: automated market Mmkers.
-* **Stablecoins**: offers users vital means of storing and transferring value on the blockchain, without exposing them to volatility.
-* **DAI**: stablecoin cryptocurrency, maintained by MakerDao. 
-* **Chainlink VRF**: verifiable randomness function that allow developers to apply random traits to an NFT.
-* **minting**: creating of NFTs (the process of validating information, creating a new block, and recording that information into the blockchain).
-* **burning**: destruction NFTs.
+* **dapps**: decentralized applications (which can include games, digital collectibles, online-voting systems, financial products and many others).
+* **daos**: decentralized autonomous organizations (makerdao is an example).
+* **defi**: decentralized finance: social currency backed by high-values assets.
+* **dex**: decentralized exchanges ([uniswap](https://uniswap.org/) is an example).
+* **liquidity pools**: pool of tokens locked in the smart contract, used to facilitate trade by providing liquidity, and used by some of the decentralized exchanges.
+* **amms**: automated market Mmkers.
+* **stablecoins**: offers users vital means of storing and transferring value on the blockchain, without exposing them to volatility.
+* **chainlink vrf**: verifiable randomness function that allow developers to apply random traits to an nft.
+* **minting**: creating of nfts (the process of validating information, creating a new block, and recording that information into the blockchain).
+* **burning**: destructing a nft.
 
 <br>
 
@@ -317,15 +262,15 @@ struct Ask {
 
 ### hot wallets to get started
 
-(remember: not your keys, not your coins)
+> *remember: not your keys, not your coins.*
 
-* [MetaMask](https://metamask.io/)
-* [rainbow](https://rainbow.me/)
-* [Coinbase](https://wallet.coinbase.com/)
-* [Pillar](https://pillarproject.io/)
-* [Enjin](https://enjin.io/software/wallet)
-* [Trust Wallet](https://trustwallet.com/)
-* [Exodus](https://www.exodus.com/)
+* **[metamask](https://metamask.io/)**
+* **[rainbow](https://rainbow.me/)**
+* **[coinbase](https://wallet.coinbase.com/)**
+* **[pillar](https://pillarproject.io/)**
+* **[enjin](https://enjin.io/software/wallet)**
+* **[trust wallet](https://trustwallet.com/)**
+* **[exodus](https://www.exodus.com/)**
 
 <br>
 
@@ -334,12 +279,12 @@ struct Ask {
 ### general guides
 
 
-* [⭐️ ⭐️ ⭐️ ⭐️ ⭐️ - NFTs Skeptics Guide](https://justincone.com/posts/nft-skeptics-guide/)
-* [⭐️ ⭐️ ⭐️ ⭐️ - NFTs players and Landscape](https://coopahtroopa.mirror.xyz/PF42Z9oE_r6yhZN9jZrrseXfHaZALj9JIfMplshlgQ0)
-* [⭐️ ⭐️ ⭐️ ⭐️ - OpenSea NFT Bible](https://opensea.io/blog/guides/non-fungible-tokens/)
-* [⭐️ ⭐️ ⭐️ ⭐️ - Cryptopedia](https://www.gemini.com/cryptopedia)
-* [⭐️ ⭐️ ⭐️ - A beginner guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)
-* [⭐️ ⭐️ ⭐️ - Crypto makes the internet ownable](https://variant.mirror.xyz/T8kdtZRIgy_srXB5B06L8vBqFHYlEBcv6ae2zR6Y_eo)
-* [⭐️ ⭐️ - NFT Beginner's Guide](https://decrypt.co/resources/non-fungible-tokens-nfts-explained-guide-learn-blockchain)
+* **[⭐️ ⭐️ ⭐️ ⭐️ ⭐️ - nfts skeptics guide](https://justincone.com/posts/nft-skeptics-guide/)**
+* **[⭐️ ⭐️ ⭐️ ⭐️ - nfts players and landscape](https://coopahtroopa.mirror.xyz/PF42Z9oE_r6yhZN9jZrrseXfHaZALj9JIfMplshlgQ0)**
+* **[⭐️ ⭐️ ⭐️ ⭐️ - opensea nft bible](https://opensea.io/blog/guides/non-fungible-tokens/)**
+* **[⭐️ ⭐️ ⭐️ ⭐️ - cryptopedia](https://www.gemini.com/cryptopedia)**
+* **[⭐️ ⭐️ ⭐️ - a beginner guide to nfts](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)**
+* **[⭐️ ⭐️ ⭐️ - crypto makes the internet ownable](https://variant.mirror.xyz/T8kdtZRIgy_srXB5B06L8vBqFHYlEBcv6ae2zR6Y_eo)**
+* **[⭐️ ⭐️ - nft beginner's guide](https://decrypt.co/resources/non-fungible-tokens-nfts-explained-guide-learn-blockchain)**
 
 
