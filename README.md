@@ -89,7 +89,6 @@
 * **[what's ethereum](https://ethereum.org/en/what-is-ethereum/)**
 * **[ethereum improvement proposals](https://eips.ethereum.org/)**
 * **[scaffold ETH](https://github.com/austintgriffith/scaffold-eth)**
-* **[check gas price](https://www.gasnow.org/)**
 * **[eth gas station](https://ethgasstation.info/)**
 
 
@@ -111,7 +110,6 @@
 
 * **[cryptokitties](https://www.cryptokitties.co/)**: the first digital asset to use the ERC721 asset standard for nfts (in 2017).
 * **[rare pepe wallet](https://rarepepewallet.com/)**
-* **[non fungible pepes](https://nonfungiblepepe.com/)**
 * **[bullrun babes](https://www.bullrunbabes.com/rules)**
 * **[cryptopunks](https://www.larvalabs.com/cryptopunks)**
 * **[curio cards](https://curio.cards/)**
@@ -125,11 +123,8 @@
 * **[zora protocol](https://zora.engineering/whitepaper)**
 * **[known origin](https://knownorigin.io/)**
 * **[foundation](https://foundation.app/)**
-* **[digitalax](https://marketplace.digitalax.xyz/)**
-* **[terra virtua](https://terravirtua.io/)**
 * **[nifty gateway](https://niftygateway.com/)**
 * **[opensea.io](https://opensea.io/)**
-* **[cryptoslam.io](https://www.cryptoslam.io/)**
 * **[rarible](https://rarible.com/)**
 * **[superrare](https://superrare.co/)**
 * **[wax](https://wax.io/)**
@@ -143,8 +138,6 @@
 * **[token trove](https://tokentrove.com/)**
 * **[cargo](https://cargo.build/)**
 * **[blockparty](https://blockparty.co/)**
-* **[charged particles](https://app.charged.fi/go/market)**
-* **[don't buy meme](https://dontbuymeme.com/)**
 * **[ghost market](https://ghostmarket.io/)**
 
 
@@ -160,7 +153,6 @@
 * **[war of crypta](https://warofcrypta.com/)**
 * **[,ine or die](https://warriders.com/)**
 * **[world of ether](https://worldofether.com/)**
-* **[crypto weebs](https://www.crypto-weebs.com/)**
 * **[axie infinity](https://axieinfinity.com/)**
 
 <br>
@@ -175,13 +167,10 @@
 * **[nf2/0](https://nft20.io/)**
 * **[nfy](https://nfy.finance)**
 * **[nftx.org](https://nftx.org/#/)**
-* **[tokenize real estate](https://blog.realt.co/)**
 * **[nftindes](https://nftindex.tech/en/index.html)**
 * **[piedao](https://play-metaverse-token.piedao.org/)**
-* **[indexcoop](https://app.indexcoop.com/jpg)**
-* **[tessera](https://tessera.co/)**
+* **[indexcoop](https://indexcoop.com)**
 * **[nft trader](https://www.nfttrader.io/)**
-* **[nft lending protocols](https://twitter.com/FUTURE_FUND_/status/1520897597539745793?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1520897597539745793%7Ctwgr%5E891a6bd85a5df5688f988d945e325aabdbaabd6e%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.coindesk.com%2Flearn%2Fwhat-is-nft-lending%2F)**
 
 
 <br>
@@ -190,14 +179,12 @@
 
 * **[nft market overview](https://nonfungible.com/market/history)**
 * **[crypto slam](https://www.cryptoslam.io/)**
-* **[etherscan](https://rinkeby.etherscan.io/)**
 
 
 <br>
 
 #### permanent storage solutions
 
-* **[check my nft](https://checkmynft.com/)**
 * **[arweave](https://www.arweave.org/)**
 * **[iPFS to arweave](https://ipfs2arweave.com/)**
 * **[infinft](https://infinft.com/)**
@@ -224,7 +211,6 @@
 #### communities
 
 * **[peeps democracy](https://medium.com/peeps-democracy)**
-* **[crypto art pulse](https://cryptoartpulse.com/)**
 * **[eth global](https://ethglobal.co/)**
 
 
