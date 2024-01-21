@@ -114,7 +114,7 @@
 * **[cryptopunks](https://www.larvalabs.com/cryptopunks)**
 * **[curio cards](https://curio.cards/)**
 * **[joy world](https://www.joy.world/)**
-* **[axie](https://axieinfinity.com/)**
+
 
 <br>
 
