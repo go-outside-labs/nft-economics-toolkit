@@ -1,8 +1,8 @@
-## 🎨 NFT Economics Toolkit
+## 📊 NFT economics toolkit
 
 <br>
 
-* **[NFT: from zero to hero](zero_to_hero.md)**
+* **[NFTs from zero to hero](zero_to_hero.md)**
   * (toolkit compilated while i helped co-found the blockchain team at shopify, bull'21)
  
 <br>
