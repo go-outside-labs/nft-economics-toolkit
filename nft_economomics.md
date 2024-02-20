@@ -20,8 +20,9 @@
 
 <br>
 
-### nft licensing
+### nft licensing and ip
 
 <br>
 
+* **[story protocol](storyprotocol.xyz)**
 * **[overpass](https://www.overpassip.com/about)**
