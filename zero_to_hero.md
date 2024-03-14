@@ -233,7 +233,7 @@
 
 ---
 
-### accronyms and concepts
+### acronyms and concepts
 
 * **dapps**: decentralized applications (which can include games, digital collectibles, online-voting systems, financial products and many others).
 * **daos**: decentralized autonomous organizations (makerdao is an example).

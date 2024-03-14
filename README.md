@@ -3,7 +3,7 @@
 <br>
 
 * **[NFTs from zero to hero](zero_to_hero.md)**
-  * (toolkit compilated while i helped co-found the blockchain team at shopify, bull'21)
+  * (toolkit compiled while i helped co-found the blockchain team at shopify, bull'21)
  
 <br>
     
